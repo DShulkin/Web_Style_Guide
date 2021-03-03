@@ -2,11 +2,18 @@
 $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
 
+$color-secondary-light: lighten($color-secondary, 10%);
+
 /*---------Button Colors--------*/
-$color-btn-success: #63cc82;
-$color-btn-error: #e4757a;
-$color-btn-warning: #fd7856;
-$color-btn-info: #927bc1;
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
+
+$color-success-light: lighten($color-success, 10%);
+$color-error-light: lighten($color-error, 10%);
+$color-warning-light: lighten($color-warning, 10%);
+$color-info-light: lighten($color-info, 10%);
 
 /*---------Column Colors--------*/
 $color-col-3: #deb2ee;
@@ -15,11 +22,15 @@ $color-col-5: #88d9a0;
 $color-col-6: #4da2bb;
 $color-col-7: #ec9fa3;
 $color-col-8: #fd9f85;
+$color-col-9: #e4757a;
+$color-col-10: #63cc82;
+$color-col-11: #51ddfc;
 $color-col-12: #80e8d1;
 
 /*---------Font Colors--------*/
 $color-font: #777;
 
 /*--------Media Queries--------*/
-$break-m: (min-width: 768px);
-$break-l: (max-width: 1024px);
+$break-m: 768px;
+$break-l: 1024px;
+

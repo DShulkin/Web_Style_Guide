@@ -3,7 +3,8 @@
 /* ============================================= */
 @media screen and (min-width: $break-m) {
   .container {
-  .centered {
+  
+    .centered {
     @include center;
     max-width: 1400px;
   }
@@ -50,7 +51,7 @@
   .logo {
     margin-left: initial;
     margin-right: initial;
-  }
-  }
+      }
+    }
   }
   

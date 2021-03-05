@@ -4,9 +4,9 @@
 @media screen and (min-width: $break-m) {
   .container {
   
-    .centered {
-    @include center;
-    max-width: 1400px;
+  .centered {
+  @include center;
+  max-width: 1400px;
   }
   
   .row {
